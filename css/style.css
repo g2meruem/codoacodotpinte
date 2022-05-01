@@ -1,0 +1,54 @@
+.navbar {background-color:#34383e !important;}
+
+body{
+    padding:0px;
+    margin;0px;
+
+}
+.izquierda{
+    background-color: gray;
+    width: 50%;
+    height:5ovh ;
+    color:white;
+}
+.derecha{
+    background-image:url(https://i.imgur.com/gp2mqro.jpeg);
+    background-image:center;
+    background-image:cover;
+    background-position: center;
+    width:50%;
+    height: 60vh;
+}
+
+#dividido{
+    display:flex;
+}
+.boton{
+    margin:auto;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    }
+    /*  Este es para el elemento activo lo puedes omitir si asi deseas */
+    .navbar-light .navbar-nav .active>.nav-link  {
+     color: red;
+    }
+    .navbar{
+        width: 100%;
+        text-align: right;
+    
+      }
+    
+      .navbar-nav > li {
+          float: none;
+          display: inline-block;
+        }
+
+        #myCarousel {
+            filter: brightness(76%);
+            }
+#conoce{
+        text-align: center;
+}
+
+.derecha{background-color: gray;}
